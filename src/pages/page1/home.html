@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar color="orange">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<div text-center>
+<button ion-button rounded block color="orange" id="readmebutton" onclick="rmhidshow()">show/hide readme</button>
+<hr>
+<img style="text-align: center" src="images/banner.jpg" width="95%" height="auto" alt="/">
+<div id="infodiv" style="display: none">
+ 
+</div>
+  <br>
+  <h3>Oxford Lafayette Humane Society</h3>
+  <hr>
+  <h5>Where your furry friend awaits</h5>
+
+  <p>Welcome to Oxford-Lafayette Humane Society</p>
+</div>
+  <div margin-horizontal>
+  <p>For over 30 years, OLHS' dedicated staff and volunteers have worked to improve the plight of lost, unwanted, abandoned, and homeless animals by providing shelter, care, rescue, adoption services, and foster homes; to investigate incidents of animal cruelty, abandonment, and neglect; and to promote responsible pet ownership by advocating spay/neuter, permanent identification, and the humane and compassionate treatment of animals.</p>
+
+  <p>Whether you are looking to adopt a new companion, interested in volunteering or attending a fundraiser, or needing to surrender a stray or owned animal, the Oxford-Lafayette Humane Society is here for you.</p>
+
+  <p>OLHS is a private, nonprofit organization that is not affiliated with any other local or national organization. Our work is made possible only by the generosity of people like you. All contributions are tax deductible.</p>
+
+  <p>Please consider donating to our cause today!</p>
+</div>
+  <button ion-button rounded block color="orange" (click)="logout()">Logout</button>
+</ion-content>
